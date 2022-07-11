@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    height: 80px;
+    background-color: #000;
+    &_logo{
+        margin-top: 10px;
+        display: block;
+        color: $main-color; 
+        margin-left: 120px;
+        font-weight: 400;
+        padding-right: 75px;
+    }
+    &_menu{
+        display: flex;
+        margin-right: 700px;
+        li{
+            margin-right: 40px;
+            margin-top: 22px;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 400;
+            color: #ACA592;
+            list-style-type: none;
+            transition: 0.7s all;
+            cursor: pointer;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &_button{
+        color: $main-color;
+        background-color: #000;
+        margin-right: 115px;
+        width: 175px;
+        height: 60px;
+        border: 2px solid $main-color;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
