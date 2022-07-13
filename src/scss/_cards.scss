@@ -1,13 +1,16 @@
 .cards{
-  min-height: 2750px;
+  min-height: 2400px;
   background-color: #181511;
-  
+
+  &_container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
   &_wrapper{
     display: flex;
-    
-  }
-  ._items{
-    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   h1{
@@ -24,11 +27,12 @@
     color: #FFAE2B;
     font-weight: 400;
     font-size: 60px;
+    padding-bottom: 60px;
   }
   .card{
     display: block;
     border: 2px solid #4B4136;
-    width: 387px;
+    width: 387 px;
     min-height: 315px;
     margin-bottom: 20px;
     margin-right: 20px;
