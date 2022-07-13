@@ -1,0 +1,115 @@
+.services {
+  min-height: 760px;
+  background-color: #181511;
+  h1{
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ACA592;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 120px;
+  }
+  h2{
+    padding-top: 10px;
+    text-align: center;
+    color: #FFAE2B;
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 60px;
+  }
+  &_container{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  &_tabs{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  &_tab_1{
+    border: 1px solid #4B4136;
+    height: 350px;
+    width: 400px;
+    &_img1{
+      display: block;
+      margin-top: 61px;
+      margin-left: 70px;
+      z-index: 1;
+    }
+    &_img2{
+      display: block;
+      margin-top: -20px;
+      margin-left: 67px;
+      z-index: -1;
+    }
+}
+&_tab_2{
+    border: 1px solid #4B4136;
+    height: 350px;
+    width: 400px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+    &_img3{
+      position: relative;
+      display: block;
+      margin-top: 54px;
+      margin-left: 50px;
+      z-index: 0;
+    }
+    &_img4{
+      display: block;
+      margin-top: -34px;
+      margin-left: 75px;
+      z-index: 20;
+    }
+}
+
+&_tab_3{
+  border: 1px solid #4B4136;
+    height: 350px;
+    width: 400px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    &_img5{
+      position: relative;
+      display: block;
+      margin-top: 64px;
+      margin-left: 69px;
+      z-index: 1;
+    }
+    &_img6{
+      display: block;
+      margin-top: -15px;
+      margin-left: 67px;
+      z-index: -1;
+    }
+}
+
+
+  &_header{
+    font-weight: 400;
+    color: #FFAE2B;
+    font-size: 29px;
+    margin-top: 20px;
+    margin-left: 41px;
+  }
+
+  &_subheader{
+    font-weight: 400;
+    color: #ACA592;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 41px;
+  }
+
+  &_descr{
+    font-weight: 400;
+    font-size: 11px;
+    color: #ACA592;
+    margin-top: 10px;
+    margin-left: 41px;
+    line-height: 25px;
+  
+  }
+ }
