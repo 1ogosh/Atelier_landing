@@ -1,0 +1,68 @@
+.follow_me{
+  height: 300px;
+  background-color: #181511;
+  &_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
+  &_hr2_1{
+    width: 1190px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    border: 1px solid;
+    color: #4B4136;
+  }
+  &_hr2_2{
+    display: block;
+    width: 1195px;
+    margin: 0 auto;
+    border: 1px solid;
+    color: #25201b;
+    margin-top: 15px;
+  }
+  &_div{
+    &_img2{
+      display: flex;
+      z-index: 1;
+      &_me3{
+        margin-left: 64px;
+        margin-right: 64px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        z-index: 1;
+        &_descr{
+          z-index: 2;
+          color: #FFAE2B;
+          display: block;
+          margin-top: -224px;
+          font-weight: 400;
+          font-size: 40px;
+          text-align: center;
+        }
+        &_btn{
+          display: block;
+          margin-top: 40px;
+          width: 122px;
+          height: 50px;
+          color: #000;
+          font-weight: 400;
+          font-size: 11px;
+          text-transform: uppercase;
+          background-color: #FFAE2B;
+          z-index: 2;
+          margin-left: 102px;
+          
+        }
+      }
+    }
+    &_img1{
+      position: relative;
+      display: flex;
+      margin: 0 auto;
+      margin-bottom: -25px;
+      z-index: 999;
+    }
+  }
+}
